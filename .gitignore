@@ -1,3 +1,11 @@
+# ddd
+obj/
+bin/
+
+# IDEs
+.idea/
+.vscode/
+
 # Prerequisites
 *.d
 
