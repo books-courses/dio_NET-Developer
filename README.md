@@ -1,6 +1,12 @@
 # .NET
 
+<br>
+
 Em setembro de 2022 passei a estudar [DotNet](https://dotnet.microsoft.com), em um BootCamp da DIO. O instrutor é o [Leonardo Buta](https://www.linkedin.com/in/leonardo-buta).
+
+- https://web.dio.me/track/pottencial-net-developer
+
+<br>
 
 > O Pottencial .NET Developer é o bootcamp para profissionais que buscam aperfeiçoar suas habilidades em desenvolvimento back-end com .NET e C#, e querem ganhar mais confiança no desenvolvimento de projetos. Uma trilha completa em .NET, Banco de Dados SQL e projetos práticos que te preparam para atuar em grandes cases de mercado. Ao final do programa, você ainda ficará disponível para o processo seletivo da Pottencial, maior insurtech do Brasil, com vagas full remotas.
 
@@ -45,10 +51,10 @@ Converte linguagem de **alto nível** para **alto nível**
 # SDK: para Desenvolver
 sudo apt-get update && sudo apt-get install -y dotnet6
 
-# Runtime: para executar (não precisa caso )
+# Runtime: para executar (não precisa caso o SDK seja instalado)
 sudo apt-get install -y dotnet-runtime-6.0
 
-# Avalia informações
+# Avalia informações do Dotnet instalado
 dotnet --info
 ```
 
@@ -60,9 +66,13 @@ dotnet --info
 
 Existem vários tipos de projetos.
 Dentre eles há o tipo console, onde todas as saídas dos programas serão feitos no console.
+
 - https://aka.ms/new-console-template
 
+<br>
+
 Tem outras interfaces para web, apis, forms etc.
+
 <br>
 
 ---
