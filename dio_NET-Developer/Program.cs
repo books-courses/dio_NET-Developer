@@ -62,6 +62,7 @@ calc.Coseno(30);
 calc.Tangente(30);
 
 
+
 var numero = 10;
 numero++;
 Console.WriteLine(numero);
