@@ -1,10 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+//
+//
+//
 
 
-namespace Projeto.Capitulo_01;
+namespace dio_NET_Developer.Capitulo_01;
 
 public class Cap01
 {

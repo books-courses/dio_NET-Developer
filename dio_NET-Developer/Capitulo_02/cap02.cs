@@ -1,4 +1,10 @@
-namespace Projeto.Capitulo_02;
+// dddd
+// dddd
+// dddd
+
+
+
+namespace dio_NET_Developer.Capitulo_02;
 
 public class Cap02
 {
@@ -65,7 +71,5 @@ public class Cap02
                 Console.WriteLine("Não é Vogal");
                 break;
         }
-
     }
-    
 }

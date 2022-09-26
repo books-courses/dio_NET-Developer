@@ -1,11 +1,16 @@
-namespace Projeto.Capitulo_03;
+//
+//
+//
+
+
+namespace dio_NET_Developer.Capitulo_03;
 
 public class Cap03
 {
     public static void SubCap01()
     {
         // Cria a variável p com objeto "Pessoa"
-        Pessoa.Pessoa p = new Pessoa.Pessoa();
+        Model_Pessoa.Pessoa p = new Model_Pessoa.Pessoa();
 
         // Atribuí variáveis
         p.Nome = "Michel";
@@ -16,5 +21,12 @@ public class Cap03
 
         // Usa o método Aniversário
         p.Aniversario();
+    }
+
+    public static void SubCap02()
+    {
+        // Calculadora
+        double valor = 1.50;
+        Console.WriteLine(valor);
     }
 }
