@@ -105,3 +105,13 @@ dotnet new console
 # Para rodar
 dotnet run
 ```
+
+<br>
+
+---
+
+
+### Projeto
+
+- .csprj
+- .sln

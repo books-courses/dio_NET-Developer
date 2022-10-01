@@ -9,6 +9,7 @@ using dio_NET_Developer.Model_Pessoa;
 using dio_NET_Developer.Capitulo_01;
 using dio_NET_Developer.Capitulo_02;
 using dio_NET_Developer.Capitulo_03;
+using dio_NET_Developer.Capitulo_04;
 using dio_NET_Developer.Model_Calculadora;
 
 // --------------------------------------
@@ -52,6 +53,7 @@ Cap03.SubCap02();
 
 var calc = new Calculadora();
 
+/*
 calc.Somar(3, 6);
 calc.Subtrair(3, 6);
 calc.Multiplicar(3, 6);
@@ -60,13 +62,26 @@ calc.Potencia(3, 6);
 calc.Seno(30);
 calc.Coseno(30);
 calc.Tangente(30);
+*/
 
 
-
+/*
 var numero = 10;
 numero++;
 Console.WriteLine(numero);
 numero--;
 Console.WriteLine(numero);
+calc.RaizQuadrada(30);*/
 
-calc.RaizQuadrada(30);
+
+// --------------------------------------
+// Estruturas de Repetição
+
+var c4 = new Cap04();
+
+// Cap04.SubCap01(); // For
+// Cap04.SubCap02(); // While 
+// Cap04.SubCap03(); // While Break
+// Cap04.SubCap04(); // Do While
+Cap04.SubCap05(); // menu
+
