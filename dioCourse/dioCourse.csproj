@@ -13,4 +13,9 @@
       <Folder Include="Capitulo_03" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Commons\Commons.csproj" />
+      <ProjectReference Include="..\Desafios\Desafios.csproj" />
+    </ItemGroup>
+
 </Project>

@@ -1,6 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dio_NET-Developer", "dio_NET-Developer\dio_NET-Developer.csproj", "{CFF6F0B1-966E-465E-BA81-D6A8E26A8163}"
+#
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dioCourse", "dioCourse\dioCourse.csproj", "{CFF6F0B1-966E-465E-BA81-D6A8E26A8163}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commons", "Commons\Commons.csproj", "{C5009671-F0FF-4CB7-BB71-404D1CD0447B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafios", "Desafios\Desafios.csproj", "{4390FA6D-098A-4C9E-96F2-DE561A9B58FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +17,13 @@ Global
 		{CFF6F0B1-966E-465E-BA81-D6A8E26A8163}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFF6F0B1-966E-465E-BA81-D6A8E26A8163}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFF6F0B1-966E-465E-BA81-D6A8E26A8163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5009671-F0FF-4CB7-BB71-404D1CD0447B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5009671-F0FF-4CB7-BB71-404D1CD0447B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5009671-F0FF-4CB7-BB71-404D1CD0447B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5009671-F0FF-4CB7-BB71-404D1CD0447B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4390FA6D-098A-4C9E-96F2-DE561A9B58FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4390FA6D-098A-4C9E-96F2-DE561A9B58FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4390FA6D-098A-4C9E-96F2-DE561A9B58FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4390FA6D-098A-4C9E-96F2-DE561A9B58FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

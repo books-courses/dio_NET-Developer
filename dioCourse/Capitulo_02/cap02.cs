@@ -4,7 +4,7 @@
 
 
 
-namespace dio_NET_Developer.Capitulo_02;
+namespace dioCourse.Capitulo_02;
 
 public class Cap02
 {

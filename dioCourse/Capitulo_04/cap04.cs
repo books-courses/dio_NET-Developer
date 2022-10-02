@@ -1,6 +1,6 @@
 // Estruturas de Repetição
 
-namespace dio_NET_Developer.Capitulo_04;
+namespace dioCourse.Capitulo_04;
 
 public class Cap04
 {
@@ -39,8 +39,9 @@ public class Cap04
         {
             Console.WriteLine($"{numero} x {contador} = {numero * contador}");
             contador++;
-            if (contador == 5) ;
+            if (contador == 5)
             {
+                Console.WriteLine("break!!!");
                 break;
             }
         }

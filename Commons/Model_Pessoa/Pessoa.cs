@@ -1,11 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-
 // "Escopo", é a forma como eu importo as funções.
-namespace dio_NET_Developer.Model_Pessoa; 
+
+
+namespace Commons.Model_Pessoa;
 
 public class Pessoa // Cria Classe Pessoa
 {
@@ -20,13 +16,13 @@ public class Pessoa // Cria Classe Pessoa
         Console.WriteLine($"Olá, meu nome é {Nome}. Tenho {Idade} anos.");
     }
 
+    /// <summary>
+    /// Faz a pessoa se apresentar
+    /// </summary>
     public void Aniversario()
     {
-        int IdadeNova = Idade + 1;
-        Console.WriteLine($"{Nome} tinha {Idade} anos\nagora tem {IdadeNova} anos");
-        Idade = IdadeNova;
+        var idadeNova = Idade + 1;
+        Console.WriteLine($"{Nome} tinha {Idade} anos\nagora tem {idadeNova} anos");
+        Idade = idadeNova;
     }
 }
-
-
-

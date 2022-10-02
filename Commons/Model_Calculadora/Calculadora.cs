@@ -2,10 +2,15 @@
 // Operadores Aritméticos em C#
 
 
-namespace dio_NET_Developer.Model_Calculadora;
+namespace Commons.Model_Calculadora;
 
 public class Calculadora
 {
+    /// <summary>
+    /// Realiza a soma dos números
+    /// </summary>
+    /// <param name="x">Um número inteiro para somar</param>
+    /// <param name="y">Um número inteiro para somar</param>
     public void Somar(int x, int y)
     {
         Console.WriteLine($"{x} + {y} = {x + y}");

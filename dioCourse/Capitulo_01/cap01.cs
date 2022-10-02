@@ -3,7 +3,7 @@
 //
 
 
-namespace dio_NET_Developer.Capitulo_01;
+namespace dioCourse.Capitulo_01;
 
 public class Cap01
 {
