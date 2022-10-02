@@ -9,13 +9,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Capitulo_02" />
-      <Folder Include="Capitulo_03" />
+        <Folder Include="Capitulo_02" />
+        <Folder Include="Capitulo_03" />
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Commons\Commons.csproj" />
-      <ProjectReference Include="..\Desafios\Desafios.csproj" />
+        <ProjectReference Include="..\Models\Models.csproj" />
+        <ProjectReference Include="..\Modulo2\Modulo2.csproj" />
     </ItemGroup>
 
 </Project>

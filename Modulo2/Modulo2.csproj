@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <OutputType>Exe</OutputType>   <!-- Add agora -->
+        <OutputType>Exe</OutputType>
         <TargetFramework>net6.0</TargetFramework>
         <RootNamespace>dio_NET_Developer</RootNamespace>
         <ImplicitUsings>enable</ImplicitUsings>
@@ -9,8 +9,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Desafio1" />
-      <Folder Include="Desafio2" />
+        <Folder Include="Etapa1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Models\Models.csproj" />
     </ItemGroup>
 
 </Project>

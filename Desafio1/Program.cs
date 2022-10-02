@@ -1,10 +1,14 @@
-namespace Desafios.Desafio1;
+﻿namespace Desafio1;
 
 public class DIO
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
-        var n = int.Parse(Console.ReadLine());
+        Console.WriteLine("Hello, World!");
+        var n = 0;
+        var resultado = int.TryParse(Console.ReadLine(), out n);
+        Console.WriteLine($"O valor de n é {n} e {resultado}");
+
         var p = 1;
         var s = 0;
         while (n > 0)
@@ -15,7 +19,6 @@ public class DIO
             s += l;
             n /= 10;
         }
-
         Console.WriteLine(p - s);
     }
 }

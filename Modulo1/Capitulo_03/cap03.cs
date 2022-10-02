@@ -2,9 +2,9 @@
 //
 //
 
-using Commons.Model_Pessoa;
+using Models.Pessoa;
 
-namespace dioCourse.Capitulo_03;
+namespace Modulo1.Capitulo_03;
 
 public class Cap03
 {
@@ -29,7 +29,7 @@ public class Cap03
     public static void SubCap02()
     {
         // Calculadora
-        double valor = 1.50;
+        var valor = 1.50;
         Console.WriteLine(valor);
     }
 }

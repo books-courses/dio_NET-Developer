@@ -1,3 +1,5 @@
+﻿// See https://aka.ms/new-console-template for more information
+
 
 /*
 Desafio
@@ -21,25 +23,32 @@ Saída
 54 64545454545454545454545454545454554
 */
 
-namespace Desafios.Desafio2;
+namespace Desafio2;
 
 public class Desafio2
 {
     public static void Main(string[] args)
     {
-        int qtTestes = int.Parse(Console.ReadLine());
-        for (int i = 0; i < qtTestes; i++)
+        Console.WriteLine("Hello, World!");
+        var qtTestes = 0;
+        var resultado = int.TryParse(Console.ReadLine(), out qtTestes);
+
+        for (var i = 0; i < qtTestes; i++)
         {
-            string[] v = Console.ReadLine().Split(" ");
-            string a = v[0];
-            string b = v[1];
-            if (a.EndsWith(b))
+            var inputUser = Console.ReadLine();
+            if (inputUser is not null)
             {
-                Console.WriteLine("encaixa");
+                var v = inputUser.Split(" ");
+                var a = v[0];
+                var b = v[1];
+                if (a.EndsWith(b))
+                    Console.WriteLine("encaixa");
+                else
+                    Console.WriteLine("nao encaixa");
             }
             else
             {
-                Console.WriteLine("nao encaixa");
+                Console.WriteLine("Usuário colocou vazio");
             }
         }
     }

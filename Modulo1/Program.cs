@@ -4,17 +4,8 @@
 
 
 // Importa coisas
-
-using dioCourse.Capitulo_01;
-using dioCourse.Capitulo_02;
-using dioCourse.Capitulo_03;
-using dioCourse.Capitulo_04;
-using dioCourse.Etapa13;
-using Commons.Model_Pessoa;
-using Commons.Model_Calculadora;
-using Commons;
-using Desafios.Desafio1;
-using Desafios.Desafio2;
+using Models.Pessoa;
+using Modulo1.Etapa13;
 
 
 // --------------------------------------
@@ -28,6 +19,7 @@ using Desafios.Desafio2;
 //
 // // Conversão Formatos
 // Cap01.SubCap03();
+
 
 // --------------------------------------
 // Capitulo 2
@@ -77,7 +69,7 @@ using Desafios.Desafio2;
 // Cap04.SubCap05(); // menu
 
 // --------------------------------------
-// Commons
+// Models
 // var c = new Class1();
 // Class1.SubCap01();
 
@@ -88,9 +80,9 @@ using Desafios.Desafio2;
 
 var e = new Etapa13();
 
-// Etapa_13.SubCap01();
-// Etapa_13.SubCap02();
-// Etapa_13.SubCap03();
+Etapa13.SubCap01();
+// Etapa13.SubCap02();
+// Etapa13.SubCap03();
 // Etapa13.SubCap04();
 
 
@@ -100,6 +92,7 @@ var e = new Etapa13();
 
 // var dd = new DIO();
 
-var d33de = new Desafio2();
-Desafio2.Main();
+// var d33de = new Desafio2();
+// Desafio2.Main();
 
+// --------------------------------------

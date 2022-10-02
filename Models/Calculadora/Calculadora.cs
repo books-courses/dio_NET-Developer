@@ -2,12 +2,12 @@
 // Operadores Aritméticos em C#
 
 
-namespace Commons.Model_Calculadora;
+namespace Models.Calculadora;
 
 public class Calculadora
 {
     /// <summary>
-    /// Realiza a soma dos números
+    ///     Realiza a soma dos números
     /// </summary>
     /// <param name="x">Um número inteiro para somar</param>
     /// <param name="y">Um número inteiro para somar</param>

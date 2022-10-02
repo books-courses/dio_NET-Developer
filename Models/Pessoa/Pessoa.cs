@@ -1,23 +1,30 @@
 // "Escopo", é a forma como eu importo as funções.
 
 
-namespace Commons.Model_Pessoa;
+namespace Models.Pessoa;
 
 public class Pessoa // Cria Classe Pessoa
 {
-    // Insere o atributo "Nome" e "Idade"
+    /// <summary>
+    ///     Insere atributos/propriedades "Nome" e "Idade"
+    /// </summary>
     public string Nome { get; set; } = string.Empty;
-    public int Idade { get; set; }
-    public string NomeRepresentanteLegal { get; set; } = string.Empty;
 
-    // Insere um método/função
+    public string NomeRepresentanteLegal { get; set; } = string.Empty;
+    public int Idade { get; set; }
+
+
+    /// <summary>
+    ///     Insere um método/função
+    /// </summary>
     public void Apresentar()
     {
         Console.WriteLine($"Olá, meu nome é {Nome}. Tenho {Idade} anos.");
     }
 
+
     /// <summary>
-    /// Faz a pessoa se apresentar
+    ///     Faz a pessoa se apresentar
     /// </summary>
     public void Aniversario()
     {

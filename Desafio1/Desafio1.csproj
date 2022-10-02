@@ -1,16 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <OutputType>Exe</OutputType>   <!-- Add agora -->
+        <OutputType>Exe</OutputType>
         <TargetFramework>net6.0</TargetFramework>
-        <RootNamespace>dio_NET_Developer</RootNamespace>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
-
-    <ItemGroup>
-      <Folder Include="Desafio1" />
-      <Folder Include="Desafio2" />
-    </ItemGroup>
 
 </Project>

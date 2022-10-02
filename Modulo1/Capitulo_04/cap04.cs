@@ -1,6 +1,6 @@
 // Estruturas de Repetição
 
-namespace dioCourse.Capitulo_04;
+namespace Modulo1.Capitulo_04;
 
 public class Cap04
 {
@@ -8,19 +8,17 @@ public class Cap04
     {
         // For
         Console.WriteLine("FOR");
-        int numero = 5;
-        for (int contador = 0; contador <= 10; contador++)
-        {
+        var numero = 5;
+        for (var contador = 0; contador <= 10; contador++)
             Console.WriteLine($"{numero} x {contador} = {numero * contador}");
-        }
     }
 
     public static void SubCap02()
     {
         // While
-        Console.WriteLine($"WHI" + $"LE");
-        int numero = 5;
-        int contador = 0;
+        Console.WriteLine("WHI" + "LE");
+        var numero = 5;
+        var contador = 0;
         while (contador <= 10)
         {
             contador++;
@@ -33,8 +31,8 @@ public class Cap04
         // While
         Console.WriteLine("While Break");
         //TODO: Erro!
-        int numero = 5;
-        int contador = 0;
+        var numero = 5;
+        var contador = 0;
         while (contador <= 10)
         {
             Console.WriteLine($"{numero} x {contador} = {numero * contador}");
@@ -51,8 +49,8 @@ public class Cap04
     {
         // While
         Console.WriteLine("Do While");
-        int numero = 0;
-        int soma = 0;
+        var numero = 0;
+        var soma = 0;
 
         do
         {
@@ -69,9 +67,9 @@ public class Cap04
     {
         Console.WriteLine("Menu");
         string? opcao;
-        bool exibirMenu = true;
+        var exibirMenu = true;
 
-        
+
         while (exibirMenu)
         {
             Console.Clear();
@@ -102,11 +100,5 @@ public class Cap04
                     break;
             }
         }
-
     }
-    
-    
-    
-    
-    
 }
