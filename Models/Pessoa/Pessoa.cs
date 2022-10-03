@@ -8,6 +8,20 @@ namespace Models.Pessoa;
 /// </summary>
 public class Pessoa
 {
+    // Primeiro Construtor: possibilita instanciar objeto, sem valores 
+    public Pessoa()
+    {
+        
+    }
+    
+    // Segundo Construtor, precisa entrar com os dados!
+    public Pessoa(string nome, string sobrenome)
+    {
+        Nome = nome;
+        Sobrenome = sobrenome;
+    }
+    
+    
     /// <summary>
     ///     Insere atributos/propriedades "Nome" e "Idade"
     /// </summary>
@@ -17,7 +31,7 @@ public class Pessoa
 
     public string Nome
     {
-        // Usando Body Expressions no Get
+        // Usando "Body Expressions" no Get
         get => _nome.ToUpper();
 
         //

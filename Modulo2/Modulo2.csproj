@@ -9,11 +9,19 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Folder Include="Etapa1" />
+      <ProjectReference Include="..\Models\Models.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Models\Models.csproj" />
+      <Compile Remove="Etapa1\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Etapa1\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Etapa1\**" />
     </ItemGroup>
 
 </Project>
