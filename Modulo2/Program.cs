@@ -7,8 +7,6 @@
 // Etapa 7: Stack, Heap e Garbage Collecotr
 
 
-// Importa coisas
-using Models.Pessoa;
 
 namespace Modulo2
 

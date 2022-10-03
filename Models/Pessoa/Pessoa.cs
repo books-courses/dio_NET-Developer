@@ -3,15 +3,57 @@
 
 namespace Models.Pessoa;
 
-public class Pessoa // Cria Classe Pessoa
+/// <summary>
+/// Cria Classe Pessoa
+/// </summary>
+public class Pessoa
 {
     /// <summary>
     ///     Insere atributos/propriedades "Nome" e "Idade"
     /// </summary>
-    public string Nome { get; set; } = string.Empty;
+    private string _nome;
+
+    private int _idade;
+
+    public string Nome
+    {
+        // Usando Body Expressions no Get
+        get => _nome.ToUpper();
+
+        //
+        set
+        {
+            // O value é o valor da variável
+            if (value == "")
+            {
+                throw new ArgumentException("O nome não pode ser vazio!");
+            }
+
+            _nome = value;
+        }
+    }
+
+    /// <summary>
+    /// Idade da Pessoa
+    /// </summary>
+    /// <exception cref="ArgumentException"></exception>
+    public int Idade
+    {
+        get => _idade;
+        set
+        {
+            if (value < 0)
+            {
+                throw new ArgumentException("A idade não pode ser menor que zero!");
+            }
+
+            _idade = value;
+        }
+    }
 
     public string NomeRepresentanteLegal { get; set; } = string.Empty;
-    public int Idade { get; set; }
+    public string Sobrenome { get; set; }
+    public string NomeCompleto => $"{Nome} {Sobrenome}".ToUpper();
 
 
     /// <summary>
@@ -19,7 +61,7 @@ public class Pessoa // Cria Classe Pessoa
     /// </summary>
     public void Apresentar()
     {
-        Console.WriteLine($"Olá, meu nome é {Nome}. Tenho {Idade} anos.");
+        Console.WriteLine($"Olá, meu nome é {NomeCompleto}. Tenho {Idade} anos.");
     }
 
 
@@ -28,8 +70,8 @@ public class Pessoa // Cria Classe Pessoa
     /// </summary>
     public void Aniversario()
     {
-        var idadeNova = Idade + 1;
-        Console.WriteLine($"{Nome} tinha {Idade} anos\nagora tem {idadeNova} anos");
-        Idade = idadeNova;
+        var idadeNova = _idade + 1;
+        Console.WriteLine($"{NomeCompleto} tinha {_idade} anos. Agora tem {idadeNova} anos!");
+        _idade = idadeNova;
     }
 }

@@ -2,7 +2,7 @@
 
     <PropertyGroup>   <!-- Add agora -->
         <TargetFramework>net6.0</TargetFramework>
-        <RootNamespace>dio_NET_Developer</RootNamespace>
+        <RootNamespace>Models</RootNamespace>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <OutputType>Exe</OutputType>
