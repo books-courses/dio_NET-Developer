@@ -7,19 +7,16 @@
 // Etapa 7: Stack, Heap e Garbage Collecotr
 
 
+using Models.Pessoa;
+using Modulo2.Etapa02;
 
-namespace Modulo2
+// --------------------------------------
+// Etapa 2: Manipulando Valores
 
 
-
-
-{
-    class Program
-    {
-        private static void Main(string[] args)
-        {
-            
-        }
-    }
-}
+var d = new Etapa_02();
+Etapa_02.SubCap01();
+Etapa_02.SubCap02();
+Etapa_02.SubCap03();
+Etapa_02.SubCap04();
 
