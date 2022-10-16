@@ -9,4 +9,20 @@
 
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.2-beta2" />
+    </ItemGroup>
+
+    <!-- <ItemGroup>
+      <Compile Remove="Venda2\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Venda2\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Venda2\**" />
+    </ItemGroup> -->
+
 </Project>

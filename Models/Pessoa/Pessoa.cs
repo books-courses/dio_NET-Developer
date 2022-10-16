@@ -1,6 +1,8 @@
 // "Escopo", é a forma como eu importo as funções.
 
 
+using System.Runtime.CompilerServices;
+
 namespace Models.Pessoa;
 
 /// <summary>
@@ -19,6 +21,13 @@ public class Pessoa
         Nome = nome;
         Sobrenome = sobrenome;
     }
+
+    public void Deconstruct(out string nome, out string sobrenome)
+    {
+        nome = Nome;
+        sobrenome = Sobrenome;
+    }
+    
 
 
     /// <summary>
