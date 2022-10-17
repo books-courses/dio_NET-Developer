@@ -1,9 +1,20 @@
-
-
 namespace Modulo3.Models;
 
 public class Pessoa
 {
+    // Construtor Vazio!
+    public Pessoa()
+    {
+        
+    }
+    
+    // Define Construtor! Sendo necessário passar o nome!
+    // Construtor por Herança!
+    public Pessoa(string nome)
+    {
+        Nome = nome;
+    }
+    
     public string Nome { get; set; }
     public int Idade { get; set; }
 
@@ -13,7 +24,3 @@ public class Pessoa
         Console.WriteLine($"Olá, meu nome é {Nome} e tenho {Idade} anos");
     }
 }
-
-
-
-

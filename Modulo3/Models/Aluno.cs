@@ -3,6 +3,22 @@ namespace Modulo3.Models;
 // Aluno Herdando de Pessoa
 public class Aluno : Pessoa
 {
+    /// <summary>
+    /// Construtor Vazio!
+    /// </summary>
+    public Aluno()
+    {
+        
+    }
+    
+    // Como o construtor de Pessoa requer nome!, é necessário passar 
+    // nome para o objeto pessoa!
+    // Construtor por Herança!
+    public Aluno(string nome) : base(nome)
+    {
+        
+    }
+    
     public decimal Nota { get; set; }
 
 
