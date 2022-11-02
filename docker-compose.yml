@@ -1,0 +1,26 @@
+# MySQL
+# https://hub.docker.com/_/mysql
+# https://medium.com/@chrischuck35/how-to-create-a-mysql-instance-with-docker-compose-1598f3cc1bee
+
+version: '3.5'
+services:
+    database:
+        image: mysql:5.7
+        #image: mysql:8.0
+        restart: always
+        ports:
+            - '3306:3306'
+        expose:
+            - '3306'
+        environment:
+            MYSQL_ROOT_PASSWORD: password
+            MYSQL_HOST: localhost
+            MYSQL_DATABASE: db_agenda
+            MYSQL_USER: michel
+            MYSQL_PASSWORD: password
+
+#         volumes:
+#             - db-volume:/var/lib/mysql
+# volumes:
+#     db-volume:
+
