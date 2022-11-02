@@ -16,8 +16,4 @@
       <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.Design" Version="1.1.0" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Compile Remove="Controllers\Contato.Controller.cs" />
-    </ItemGroup>
-
 </Project>

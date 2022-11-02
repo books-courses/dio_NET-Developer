@@ -1,4 +1,4 @@
-namespace MyMVC.Models;
+namespace MyMVC2.Models;
 
 public class Contato
 {
@@ -6,5 +6,5 @@ public class Contato
     public string Nome { get; set; }
     public string Telefone { get; set; }
     public bool Ativo { get; set; }
-    
 }
+

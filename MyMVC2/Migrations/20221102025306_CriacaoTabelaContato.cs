@@ -3,7 +3,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace MyMVC.Migrations
+namespace MyMVC2.Migrations
 {
     public partial class CriacaoTabelaContato : Migration
     {

@@ -1,16 +1,16 @@
-using MyMVC.Context;
+using MyMVC2.Context;
 using Microsoft.EntityFrameworkCore;
-
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddDbContext<AgendaContext>(
     options => options.UseNpgsql(
         builder.Configuration.GetConnectionString("ConexaoPostGre")));
-
 builder.Services.AddControllersWithViews();
+
+
+
 
 
 var app = builder.Build();

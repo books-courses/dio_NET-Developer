@@ -1,8 +1,8 @@
 using Microsoft.EntityFrameworkCore;
-using MyMVC.Models;
+using MyMVC2.Models;
 
+namespace MyMVC2.Context;
 
-namespace MyMVC.Context;
 
 public class AgendaContext: DbContext
 {

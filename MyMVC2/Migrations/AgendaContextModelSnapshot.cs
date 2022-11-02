@@ -2,12 +2,12 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using MyMVC.Context;
+using MyMVC2.Context;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace MyMVC.Migrations
+namespace MyMVC2.Migrations
 {
     [DbContext(typeof(AgendaContext))]
     partial class AgendaContextModelSnapshot : ModelSnapshot
@@ -21,7 +21,7 @@ namespace MyMVC.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("MyMVC.Models.Contato", b =>
+            modelBuilder.Entity("MyMVC2.Models.Contato", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

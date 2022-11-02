@@ -3,15 +3,15 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using MyMVC.Context;
+using MyMVC2.Context;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace MyMVC.Migrations
+namespace MyMVC2.Migrations
 {
     [DbContext(typeof(AgendaContext))]
-    [Migration("20221102015549_CriacaoTabelaContato")]
+    [Migration("20221102025306_CriacaoTabelaContato")]
     partial class CriacaoTabelaContato
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -23,7 +23,7 @@ namespace MyMVC.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("MyMVC.Models.Contato", b =>
+            modelBuilder.Entity("MyMVC2.Models.Contato", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
